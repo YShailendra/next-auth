@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Create  .env file with keys env-example
+
+## ✅ Base URL of the SuperTokens Auth Server
+APP_AUTH_ENDPOINT="https://your-auth-domain.com/auth"
+
+## ✅ Client ID issued by SuperTokens for your app
+SUPERTOKEN_CLIENT_ID="your-supertokens-client-id"
+
+## ✅ Client secret issued by SuperTokens for your app
+SUPERTOKEN_CLIENT_SECRET="your-supertokens-client-secret"
+
+## ✅ Callback URL where SuperTokens should redirect after authentication
+CALLBACK_URL="http://localhost:3000/api/auth/callback/supertokens"
 
 ## Getting Started
 

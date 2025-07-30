@@ -1,0 +1,4 @@
+    APP_AUTH_ENDPOINT = ""
+    SUPERTOKEN_CLIENT_ID = ""
+    SUPERTOKEN_CLIENT_SECRET = ""
+    CALLBACK_URL = "http://localhost:3000/api/auth/callback/supertokens"
